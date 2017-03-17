@@ -1,0 +1,31 @@
+<layout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.myhexaville.pagetransformer.PageFragment">
+
+        <ImageView
+            android:id="@+id/image_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/boston"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#55000000"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:layout_margin="32dp"
+            android:textSize="42sp"
+            android:text="Page"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</layout>
